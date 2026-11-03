@@ -77,4 +77,100 @@ Dev-C++: open trees.c and press F11 Command line: gcc trees.c -o trees ./trees
 ### Duplicates Checking
 <img src="screenshots/duplicate_checking.png" width="450">
 
+## Conclusion
+This Student Record Search System uses concepts as Binary Trees and Binary Search Trees, Structures and Pointers, Dynamic Memory Allocation using malloc(), Memory Deallocation using free(), Recursion to implement insertion, searching and deletion, tree traversals for storing and managing student data.
+
+
+# Campus Route Finder Using Graphs
+
+## Project Description
+
+The Campus Route Finder is a menu-driven C program that represents different locations within a college campus using a Graph data structure.
+
+The project helps users explore connected campus locations, find the shortest route between two locations using Breadth-First Search (BFS), and explore reachable locations using Depth-First Search (DFS).
+
+The graph is represented using an Adjacency List, where vertices represent campus locations and edges represent the paths connecting them.
+
+## Features
+
+- **Display Locations:** Shows all available campus locations.
+- **Display Graph:** Displays the graph using an adjacency list.
+- **BFS (Breadth-First Search):** Finds the shortest route between a starting location and a destination in terms of the minimum number of edges.
+- **DFS (Depth-First Search):** Explores connected campus locations using recursion.
+- **Reachability Check:** Displays all locations reachable from a selected starting point.
+- **Disconnected Locations:** Identifies locations that cannot be reached from the selected starting point.
+- **Menu-Driven Interface:** Allows users to perform different graph operations through a simple menu.
+
+## Technologies Used
+
+- **Programming Language:** C
+- **Libraries:**
+  - `stdio.h` – Input and output operations.
+  - `string.h` – String handling.
+  - `stdlib.h` – Dynamic memory allocation and memory management.
+
+## Graph Representation
+
+### Adjacency List
+
+The project uses an Adjacency List to represent the campus graph.
+
+- **Vertices:** Represent campus locations.
+- **Edges:** Represent paths between locations.
+- Each vertex maintains a linked list of its connected vertices.
+
+The graph is undirected, meaning that if one location is connected to another, the reverse connection also exists.
+
+### Campus Locations
+
+The project contains 8 campus locations:
+
+| Vertex | Location |
+|---|---|
+| 0 | Main Gate |
+| 1 | Library |
+| 2 | Block 1 |
+| 3 | Block 2 |
+| 4 | Cafeteria |
+| 5 | Auditorium |
+| 6 | Parking |
+| 7 | Lab |
+
+## Algorithms Used
+
+### 1. Breadth-First Search (BFS)
+
+BFS explores the graph level by level using a Queue.
+
+It finds the shortest route between two locations in an unweighted graph by tracking visited vertices and their parent vertices.
+
+### 2. Depth-First Search (DFS)
+
+DFS explores one path as deeply as possible before backtracking.
+
+It is implemented using recursion and a visited array to avoid visiting the same vertex repeatedly.
+
+## Time and Space Complexity
+
+| Operation | Time Complexity |
+|---|---|
+| Graph Creation | O(V + E) |
+| BFS | O(V + E) |
+| DFS | O(V + E) |
+| Display Graph | O(V + E) |
+
+**Space Complexity:** O(V + E) for the adjacency list representation.
+Where:
+- V = Number of vertices
+- E = Number of edges
+
+## How to Compile and Run
+Dev-C++: open campus route finder.c and press F11 Command line: gcc campus route finder.c -o campus route finder ./campus route finder
+
+## Screenshots
+
+
+## Conclusion
+
+The Campus Route Finder shows the practical application of Graph data structures in representing connected locations. It uses BFS to find the shortest route and DFS to explore reachable locations. It uses concepts like Graph representation, Adjacency Matrix, BFS and DFS algorithms, dynamic memory allocation, queue and recursion etc.
 
