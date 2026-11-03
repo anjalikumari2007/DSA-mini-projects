@@ -61,20 +61,20 @@ Dev-C++: open trees.c and press F11 Command line: gcc trees.c -o trees ./trees
 
 ## Screenshots
 ### Student Record Insertion
-<img src="screenshots/insert.png" width="400">
+<img src="screenshots/insert.png" width="450">
 
 ### Student Search
-![Searching](screenshots/search.png)
+<img src="screenshots/search.png" width="450">
 
 ### Student Record Deletion
-![Deletion](screenshots/delete.png)
+<img src="screenshots/delete.png" width="450">
 
 ### Tree Traversals
-![Traversal](screenshots/inorder.png)
-![Traversal](screenshots/preorder.png)
-![Traversal](screenshots/postorder.png)
+<img src="screenshots/inorder.png" width="450">
+<img src="screenshots/preorder.png" width="450">
+<img src="screenshots/postorder.png" width="450">
 
 ### Duplicates Checking
-![Duplicates](screenshots/duplicate_checking.png)
+<img src="screenshots/duplicate_checking.png" width="450">
 
 
