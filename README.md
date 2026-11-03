@@ -59,18 +59,4 @@ A regular BST may become skewed if records are inserted in sorted order, resulti
 
 Dev-C++: open trees.c and press F11 Command line: gcc trees.c -o trees ./trees
 
-## Concepts Covered
-
-- Binary Trees and Binary Search Trees
-- Structures and Pointers
-- Dynamic Memory Allocation using `malloc()`
-- Memory Deallocation using `free()`
-- Recursion
-- Insertion, Searching and Deletion
-- Tree Traversals
-- Time and Space Complexity
-
-## Conclusion
-
-The Student Record Search System demonstrates how a Binary Search Tree can be used to store and manage student information efficiently. It implements insertion, searching, deletion, and different traversal techniques while demonstrating important concepts of data structures, recursion, pointers, and dynamic memory management.
 
