@@ -59,4 +59,22 @@ A regular BST may become skewed if records are inserted in sorted order, resulti
 
 Dev-C++: open trees.c and press F11 Command line: gcc trees.c -o trees ./trees
 
+## Screenshots
+### Student Record Insertion
+![Insertion](screenshots/insert.png)
+
+### Student Search
+![Searching](screenshots/search.png)
+
+### Student Record Deletion
+![Deletion](screenshots/delete.png)
+
+### Tree Traversals
+![Traversal](screenshots/inorder.png)
+![Traversal](screenshots/preorder.png)
+![Traversal](screenshots/postorder.png)
+
+### Duplicates Checking
+![Duplicates](screenshots/duplicate_checking.png)
+
 
