@@ -62,6 +62,7 @@ Dev-C++: open trees.c and press F11 Command line: gcc trees.c -o trees ./trees
 ## Screenshots
 ### Student Record Insertion
 ![Insertion](screenshots/insert.png)
+<img src="screenshots/insert.png" width="250">
 
 ### Student Search
 ![Searching](screenshots/search.png)
