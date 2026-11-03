@@ -168,7 +168,20 @@ Where:
 Dev-C++: open campus route finder.c and press F11 Command line: gcc campus route finder.c -o campus route finder ./campus route finder
 
 ## Screenshots
+### Display Locations
+<img src="screenshots_route_finder/display.png" width="450">
 
+### Display Graph (Adjacency List)
+<img src="screenshots_route_finder/display_graph.png" width="450">
+
+### Shortest Route (BFS)
+<img src="screenshots_route_finder/shorted_route(BFS).png" width="450">
+
+### Explore Locations (DFS)
+<img src="screenshots_route_finder/explore_locations(DFS).png" width="450">
+
+### Disconnected Locations
+<img src="screenshots_route_finder/disconnected_loc.png" width="450">
 
 ## Conclusion
 
